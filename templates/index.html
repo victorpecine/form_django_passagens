@@ -1,12 +1,18 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Passagens</title>
-</head>
-<body>
-    <h1>Passagens</h1>
-</body>
-</html>
+{% extends "base.html" %}
+{% block content%}
+
+<section class="col-8">
+    <h1>Buscar passagem:</h1>
+    <form action="{% url 'minha_consulta' %}" method="POST">
+        {% csrf_token %} <!-- token de segurança -->
+        {% for field in form.visible_fields %} <!-- varrendo todos os campos visíveis -->
+        <div class="form-group">
+            <label for="{{ field.id_for_label }}">{{ field.label }}</label>
+            {{ field }}
+        </div>
+        {% endfor %}
+        <input type="submit" value="Buscar" class="btn btn-success">
+    </form>
+</section>
+
+{% endblock %}
