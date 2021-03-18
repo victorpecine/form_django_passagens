@@ -1,14 +1,15 @@
 {% extends "base.html" %}
-{% block content%}
+{% block content %}
+{% load widget_tweaks %}
 
-<section class="col-8">
+<section class="container col-8">
     <h1>Buscar passagem:</h1>
     <form action="{% url 'minha_consulta' %}" method="POST">
         {% csrf_token %} <!-- token de segurança -->
         {% for field in form.visible_fields %} <!-- varrendo todos os campos visíveis -->
         <div class="form-group">
             <label for="{{ field.id_for_label }}">{{ field.label }}</label>
-            {{ field }}
+            {{ field|add_class:'form-control' }}
         </div>
         {% endfor %}
         <input type="submit" value="Buscar" class="btn btn-success">
