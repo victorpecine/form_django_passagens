@@ -25,6 +25,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'passagens_app',
+    'tempus_dominus',
 ]
 
 MIDDLEWARE = [
@@ -102,3 +103,5 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 
 STATIC_URL = '/static/'
+
+TEMPUS_DOMINUS_LOCALIZE = True
