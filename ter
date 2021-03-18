@@ -1,0 +1,80 @@
+[33mcommit 799bc3b666cd6c01f2ec2b9d6a1a4406860e4f78[m[33m ([m[1;36mHEAD -> [m[1;32mvalidacoes[m[33m)[m
+Author: Victor Pecine <victorpecine@gmail.com>
+Date:   Thu Mar 18 17:44:55 2021 -0300
+
+    Validando campos de orgime e destino
+
+[33mcommit 124399dfe0d0ec97c531812650b917aa53d3cd90[m[33m ([m[1;31morigin/main[m[33m, [m[1;32mmain[m[33m)[m
+Merge: b8fe2ef 59b293c
+Author: Victor Pecine <victorpecine@gmail.com>
+Date:   Thu Mar 18 14:06:16 2021 -0300
+
+    Merge branch 'main' of https://github.com/victorpecine/form_django_passagens into main
+
+[33mcommit b8fe2ef090e15cad179048aa940d21648ed942a4[m[33m ([m[1;31morigin/adicionando_campos[m[33m, [m[1;32madicionando_campos[m[33m)[m
+Author: Victor Pecine <victorpecine@gmail.com>
+Date:   Thu Mar 18 13:55:28 2021 -0300
+
+    Widget tweaks para melhorar o visual
+
+[33mcommit 7cfa0b4a1587a71f92f010ef479eb01a74f02218[m
+Author: Victor Pecine <victorpecine@gmail.com>
+Date:   Thu Mar 18 13:48:30 2021 -0300
+
+    Novos campos adicionados ao formulário
+
+[33mcommit 14fd785d62a5801cc0332cf19f97e77145749299[m[33m ([m[1;31morigin/iniciando_aplicacao[m[33m, [m[1;32miniciando_aplicacao[m[33m)[m
+Merge: 3cda03b 8ad68ae
+Author: Victor Pecine <victorpecine@gmail.com>
+Date:   Thu Mar 18 13:29:42 2021 -0300
+
+    Merge branch 'main' into iniciando_aplicacao
+
+[33mcommit 8ad68ae5821b99d1226ad76417f09519474483a3[m
+Author: Victor Pecine <victorpecine@gmail.com>
+Date:   Thu Mar 18 13:28:42 2021 -0300
+
+    Ajusatando os commits
+
+[33mcommit 59b293c5cfa579ea3d1354b6b9cbe170a62a6f61[m
+Merge: b41a374 3cda03b
+Author: Victor Pecine <victorpecine@gmail.com>
+Date:   Thu Mar 18 13:17:50 2021 -0300
+
+    Merge branch 'iniciando_aplicacao'
+
+[33mcommit b41a374b8b364e1c7a34eaa413a77783c29b33a1[m
+Author: Victor Pecine <victorpecine@gmail.com>
+Date:   Thu Mar 18 13:08:09 2021 -0300
+
+    update files
+
+[33mcommit 3cda03b718128ca9abe12cf30184e77f70dd6a59[m
+Author: Victor Pecine <victorpecine@gmail.com>
+Date:   Thu Mar 18 13:06:02 2021 -0300
+
+    index.html
+
+[33mcommit 7c42426c464845365ee1bf18af48565afbad6244[m
+Author: Victor Pecine <victorpecine@gmail.com>
+Date:   Thu Mar 18 11:27:40 2021 -0300
+
+    Inserindo widget de calendário na index
+
+[33mcommit 8a42302746b27ce68c8790264734416273e2f549[m
+Author: Victor Pecine <victorpecine@gmail.com>
+Date:   Thu Mar 18 11:05:16 2021 -0300
+
+    Melhorando o html com base.html
+
+[33mcommit c81f346a8871cc5f314edb8f4f8718d33f4e12c4[m
+Author: Victor Pecine <victorpecine@gmail.com>
+Date:   Thu Mar 18 10:32:24 2021 -0300
+
+    Versão inicial do form
+
+[33mcommit c1b7e53acde80c9ddad45ad9fa2571b7896ded61[m
+Author: Victor Pecine <victorpecine@gmail.com>
+Date:   Wed Mar 17 23:22:28 2021 -0300
+
+    Initial commit
