@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block content%}
+
+<h1>Sua busca:</h1>
+<p>Sua origem: {{ form.origem.value }}</p>
+<p>Seu destino: {{ form.destino.value }}</p>
+<p>Data de ida: {{ form.data_ida.value }}</p>
+<p>Data de volta: {{ form.data_volta.value }}</p>
+
+{% endblock %}
