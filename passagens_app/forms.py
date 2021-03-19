@@ -34,3 +34,9 @@ class PassagemForms(forms.ModelForm):
                 mensagem_erro = lista_erros[erro]
                 self.add_error(erro, mensagem_erro)
         return self.cleaned_data
+
+
+class PessoaForm(forms.ModelForm):
+    class Meta:
+        model = Pessoa
+        exclude = ['nome']  # trazendo todos os campos exceto o nome
