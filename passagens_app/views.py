@@ -1,19 +1,21 @@
 from django.shortcuts import render
-from passagens_app.forms import PassagemForms
+from passagens_app.forms import PassagemForms, PessoaForm
 
 
 def index(request):
     form = PassagemForms()
-    contexto = {'form': form}
+    pessoa_form = PessoaForm()
+    contexto = {'form': form, 'pessoa_form': pessoa_form}
     return render(request, 'index.html', contexto)
 
 
 def revisao_consulta(request):
     if request.method == 'POST':
         form = PassagemForms(request.POST)
+        pessoa_form = PessoaForm(request.POST)
         if form.is_valid():
-            contexto = {'form': form}
+            contexto = {'form': form, 'pessoa_form': pessoa_form}
             return render(request, 'minha_consulta.html', contexto)
         else:
-            contexto = {'form': form}
+            contexto = {'form': form, 'pessoa_form': pessoa_form}
             return render(request, 'index.html', contexto)
